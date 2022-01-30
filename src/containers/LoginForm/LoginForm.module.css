@@ -1,0 +1,21 @@
+
+.loginForm {
+  margin: 0 auto;
+}
+
+.loginForm .labelText {
+  margin-bottom: 0.5rem;
+}
+
+.loginForm .actions {
+  text-align: center;
+  margin: 2rem 0 1rem;
+}
+
+.loginForm .submit {
+  width: 100%;
+}
+
+.loginForm .errorMessage {
+  color: red;
+}

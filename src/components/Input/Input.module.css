@@ -1,0 +1,15 @@
+.input {
+  border: 1px solid var(--grey1);
+  background-color: var(--grey1);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 2rem;
+  background-color: var(--grey1);
+  border: 1px solid white;
+  width: 100%;
+}
+
+.input:hover,
+.input:focus {
+  border: 1px solid var(--grey1);
+}

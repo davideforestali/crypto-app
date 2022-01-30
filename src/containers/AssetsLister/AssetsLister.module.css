@@ -1,0 +1,43 @@
+.assetsLister {
+  padding: 1rem;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+.assetsLister .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.assetsLister .list {
+  background-color: white;
+  border: 1px solid var(--grey2);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.assetsLister .assetItem {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  align-items: center;
+}
+.assetsLister .assetItem + .assetItem {
+  margin-top: 1rem;
+}
+
+.assetsLister .listHead {
+  display: grid;
+  grid-template-columns: 33% 33% auto;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: var(--grey3);
+  border-bottom: 1px solid var(--grey2);
+  padding-bottom: 1rem;
+}
+
+.assetsLister .actions {
+  display: flex;
+  justify-content: center;
+}

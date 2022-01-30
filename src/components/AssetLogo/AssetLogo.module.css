@@ -1,0 +1,11 @@
+.assetLogoContainer {
+  margin-right: .5rem;
+  background-color: var(--grey1);
+  padding: 0.3rem;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+}
+.assetLogoContainer img {
+  width: 100%;
+}

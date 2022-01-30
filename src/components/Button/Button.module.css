@@ -1,0 +1,39 @@
+.button {
+  background-color: var(--aqua);
+  border: 2px solid transparent;
+  border-radius: .5rem;
+  color: white;
+  font-weight: bold;
+  padding: .8rem 2rem;
+  text-align: center;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.button:focus {
+  box-shadow: 0 0px 0 2px rgba(0, 0, 0, 0.212);
+  outline: none;
+}
+
+.button:hover:not(:disabled) {
+  background-color: var(--aqua-light);
+  transition: background-color 0.3s;
+}
+
+.button:active {
+  background-color: var(--aqua-light);
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.button.secondary {
+  background-color: var(--grey1);
+  color: var(--aqua);
+  padding: 0.4rem 1rem;
+}
+.button.secondary:hover:not(:disabled) {
+  background-color: var(--grey2);
+}

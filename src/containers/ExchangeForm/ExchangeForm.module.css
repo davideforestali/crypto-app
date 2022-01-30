@@ -1,0 +1,53 @@
+.exchangeForm {
+  max-width: 40rem;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.exchangeForm .exchangeBox {
+  background-color: white;
+  border: 1px solid var(--grey2);
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.exchangeForm .form {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.exchangeForm .title {
+  text-align: center;
+}
+
+.exchangeForm .swapButton {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  z-index: 1;
+}
+
+.exchangeForm .inputContainer {
+  width: 100%;
+  margin-bottom: .5rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.exchangeForm .exchangeInput {
+  padding-right: 10rem;
+  -webkit-appearance: none;
+}
+
+.exchangeForm .inputCurrency {
+  position: absolute;
+  right: 1rem;
+}
+
+.exchangeForm .authAlert {
+  text-align: center;
+}

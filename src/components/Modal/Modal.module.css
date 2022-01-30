@@ -1,0 +1,50 @@
+.backdrop {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 9;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  transform: translateY(-100vh);
+  opacity: 0;
+  transition: opacity 0.3s ease-out;
+}
+
+.modal {
+  position: fixed;
+  z-index: 99;
+  background-color: white;
+  border-radius: 0.5rem;
+  width: 30rem;
+  max-width: 90%;
+  padding: 1rem;
+  left: 50%;
+  top: 10%;
+  transition: all 0.3s ease-out;
+  transform: translate(-50%, -100vh);
+  opacity: 0;
+}
+
+.backdrop.show {
+  transform: translateY(0);
+  opacity: 1;
+}
+.modal.show {
+  transform: translate(-50%, 0);
+  opacity: 1;
+}
+
+.modal .title {
+  text-align: center;
+}
+
+.modal .closeButton {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}

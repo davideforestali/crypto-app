@@ -1,0 +1,9 @@
+.assetNameContainer {
+  display: flex;
+  align-items: center;
+}
+
+.assetActionsContainer {
+  display: flex;
+  justify-content: end;
+}
